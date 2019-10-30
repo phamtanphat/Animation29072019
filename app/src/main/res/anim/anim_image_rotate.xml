@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android">
+<set
+    android:interpolator="@android:anim/anticipate_interpolator"
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <rotate
         android:pivotX="50%"
         android:pivotY="10%"
-        android:fromDegrees="-70"
-        android:toDegrees="70"
+        android:fromDegrees="0"
+        android:toDegrees="360"
         android:repeatCount="infinite"
-        android:repeatMode="reverse"
         android:duration="2000"/>
 </set>
